@@ -1,20 +1,17 @@
 import java.util.HashSet;
 
 public class LinkedListCycle {
-    static class ListNode{
 
-    }
 
-    public boolean hasCycle(ListNode head) {
-        HashSet<ListNode> visitedNode = new HashSet<ListNode>();
-        ListNode current = head;
+    public boolean hasCycle(LinkedListCycle head) {
+        HashSet<LinkedListCycle> visitedNode = new HashSet<LinkedListCycle>();
+        LinkedListCycle current = head;
 
 
 
         while(current != null){
             visitedNode.add(current);
-            current = current.next;
-
+//            current = current.next;    for .next error
             if(visitedNode.contains(current)){
                 return true;
             }
