@@ -1,4 +1,4 @@
-public class MiddleOfLinkedList {
+/*public class MiddleOfLinkedList {
 
     public ListNode middleNode(ListNode head) {
         if (head == null) {
@@ -12,4 +12,4 @@ public class MiddleOfLinkedList {
         }
         return slow;
     }
-}
+}*/

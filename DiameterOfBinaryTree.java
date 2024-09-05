@@ -1,5 +1,6 @@
 
 
+/*
 public class DiameterOfBinaryTree {
     int diameter =0;
     public int diameterOfBinaryTree(TreeNode root) {
@@ -20,4 +21,5 @@ public class DiameterOfBinaryTree {
         return Math.max(l_height, r_height)+1;
     }
 }
+*/
 
