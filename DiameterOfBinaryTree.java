@@ -1,6 +1,5 @@
 
 
-/*
 public class DiameterOfBinaryTree {
     int diameter =0;
     public int diameterOfBinaryTree(TreeNode root) {
@@ -8,7 +7,20 @@ public class DiameterOfBinaryTree {
         return diameter;
     }
 
-    int height(BalancedBinaryTree.TreeNode node){
+      public class TreeNode {
+          int val;
+          TreeNode left;
+          TreeNode right;
+          TreeNode() {}
+          TreeNode(int val) { this.val = val; }
+          TreeNode(int val, TreeNode left, TreeNode right) {
+              this.val = val;
+              this.left = left;
+              this.right = right;
+          }
+      }
+
+    int height(DiameterOfBinaryTree.TreeNode node){
 
         if(node ==  null){
             return 0;
@@ -21,5 +33,4 @@ public class DiameterOfBinaryTree {
         return Math.max(l_height, r_height)+1;
     }
 }
-*/
 
